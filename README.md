@@ -15,7 +15,7 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/my-react-website.git
+   git clone https://github.com/jyoung360/my-react-website.git
    ```
 2. Navigate to the project directory
    ```bash
