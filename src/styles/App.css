@@ -78,6 +78,26 @@ a:hover {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
+/* Header Logo */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 100px; /* Increased size */
+    height: 100px; /* Increased size */
+
+}
+
+.app-header h1 {
+    font-size: 2rem;
+    color: var(--primary-200);
+    margin: 0;
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--bg-200), var(--bg-300));
@@ -366,4 +386,124 @@ textarea {
 .submit-button:hover {
     background-color: var(--primary-200);
     transform: scale(1.05);
+}
+
+/* About Page */
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--bg-100);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.about-page h2 {
+    font-size: 2rem;
+    color: var(--primary-200);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-page p {
+    font-size: 1.2rem;
+    color: var(--text-200);
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about-page h3 {
+    font-size: 1.5rem;
+    color: var(--primary-100);
+    margin-bottom: 10px;
+}
+
+.expertise-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.expertise-list li {
+    font-size: 1.1rem;
+    color: var(--text-100);
+    margin-bottom: 10px;
+}
+
+.expertise-list li strong {
+    color: var(--primary-100);
+}
+
+/* Services Page */
+.services-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--bg-100);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.services-page h2 {
+    font-size: 2rem;
+    color: var(--primary-200);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.services-page p {
+    font-size: 1.2rem;
+    color: var(--text-200);
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.services-page h3 {
+    font-size: 1.5rem;
+    color: var(--primary-100);
+    margin-bottom: 10px;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.services-list li {
+    font-size: 1.1rem;
+    color: var(--text-100);
+    margin-bottom: 10px;
+}
+
+.services-list li strong {
+    color: var(--primary-100);
+}
+
+/* Login Button */
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: var(--primary-100);
+    color: var(--bg-100);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+    background-color: var(--primary-200);
+    transform: scale(1.05);
+}
+
+/* Ensure the header has relative positioning for the button to align correctly */
+.app-header {
+    position: relative;
 }

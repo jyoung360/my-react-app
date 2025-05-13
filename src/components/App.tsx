@@ -13,7 +13,10 @@ const App: React.FC = () => {
         <Router>
             <div className="app">
                 <header className="app-header">
-                    <h1>Welcome to 3D Print Hub</h1>
+                    <div className="logo-container">
+                        <img src="/logo.png" alt="3D Print Hub Logo" className="logo" />
+                        <h1>3D Print Hub</h1>
+                    </div>
                     <nav className="navbar">
                         <ul className="navbar-list">
                             <li className="navbar-item">
@@ -58,6 +61,7 @@ const App: React.FC = () => {
                             </li>
                         </ul>
                     </nav>
+                    <button className="login-button">Login</button>
                 </header>
                 <main className="app-main">
                     <Routes>
